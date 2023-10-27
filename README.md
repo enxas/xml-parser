@@ -2,6 +2,10 @@
 
 XML parser that takes XML string and outputs it in JSON format. It doesn't use any libraries or dependencies so you can use it in Node.js or browsers. I made this as an exercise, so it might not handle more advanced use cases.
 
+## Installation
+
+Install via NPM `npm i @enxas/xml-parser` or copy `index.js` from git repo and paste it into your project folder.
+
 ## Basic Usage
 
 ```js
