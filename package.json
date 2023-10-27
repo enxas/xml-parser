@@ -1,0 +1,27 @@
+{
+  "name": "@enxas/xml-parser",
+  "version": "1.0.0",
+  "description": "Convert XML to JSON",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enxas/xml-parser.git"
+  },
+  "keywords": [
+    "XML",
+    "JSON",
+    "parse",
+    "convert",
+    "es6"
+  ],
+  "author": "enxas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enxas/xml-parser/issues"
+  },
+  "homepage": "https://github.com/enxas/xml-parser#readme"
+}
