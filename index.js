@@ -177,7 +177,7 @@ export class XmlParser {
     while (true) {
       let character = this.#_xmlString[stringIndex];
 
-      if (character == " " || character == ">") {
+      if (this.#is_control_character(character) || character == ">") {
         return [stringIndex, name];
       }
 
@@ -232,6 +232,11 @@ export class XmlParser {
 
     while (true) {
       let character = this.#_xmlString[stringIndex];
+
+      if (this.#is_control_character(character) == true) {
+        stringIndex++;
+        continue;
+      }
 
       if (character == "?" && this.#_xmlString[stringIndex + 1] == ">") {
         // encluntered prolog closing ?> symbols, were done
