@@ -1,8 +1,8 @@
 {
-  "name": "@enxas/xml-parser",
+  "name": "xml-parser",
   "version": "1.0.0",
   "description": "Convert XML to JSON",
-  "main": "index.js",
+  "main": "xml-parser.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
